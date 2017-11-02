@@ -10,7 +10,7 @@ package is bôlər.
 To install in R:
 
 ```r
-if (!("devtools" %in% rownames(installed.packages())) {
+if (!("devtools" %in% rownames(installed.packages()))) {
     install.packages("devtools", repos = "https://cran.rstudio.com")
 }
 devtools::install_github("rtelmore/ballr")
